@@ -1,4 +1,4 @@
-name: deploy-frontend
+name: test-frontend
 
 on:
   push
@@ -17,5 +17,3 @@ jobs:
           aws-region: us-east-1
       - name: Build React App
         run: npm install && npm run build
-      - name: Deploy app build to S3 bucket
-        run: aws s3 sync ./ s3://personal-project-website --delete
