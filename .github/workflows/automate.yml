@@ -1,9 +1,8 @@
 name: deploy-frontend
 
 on:
-  push:
-    branches:
-      - master
+  push
+
 
 jobs:
   build:
