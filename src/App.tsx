@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import Home from "./pages";
 import {Route, Switch} from "react-router-dom";
 import About from "./pages/about";
-import Projects from "./pages/projects";
+import Portfolio from "./pages/portfolio";
 import Contact from "./pages/contact";
 import Dropdown from "./components/Dropdown";
 
@@ -37,10 +37,8 @@ function App() {
         <Switch>
             <Route  path='/' exact component = {Home} />
             <Route  path='/about' exact component = {About} />
-            <Route  path='/projects' exact component = {Projects} />
+            <Route  path='/portfolio' exact component = {Portfolio} />
             <Route  path='/contact' exact component = {Contact} />
-
-
         </Switch>
         <Footer />
     </>
