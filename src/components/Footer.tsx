@@ -1,10 +1,37 @@
 import React from "react";
-
+import {IconContext} from "react-icons"
+import { Link } from "react-router-dom"
+import {SiGithub,SiLinkedin} from 'react-icons/si'
 const Footer = () => {
+            fetch(' https://api.ryandriver.me/put')
+            .then(() => fetch(' https://api.ryandriver.me/get'))
+            .then(response => response.json())
+            .then((data) => {
+                document.getElementById('replaceme')!.innerText = data.count
+            })
     return(
-        <div className="flex justify-center items-center h-16 bg-black text-white">
+
+        <div className="flex px-2 justify-between items-center h-16 bg-black text-white">
+                       <p className="px-2">
+        Visitors:
+        <span id="replaceme" />
+                </p>
            <p>Copyright © 2021 Ryan Driver all rights reserved.</p>
+
+        <div className="flex px-2 justify-between items-center h-16 bg-black text-white">
+
+                    <IconContext.Provider value={{size:"1.5em"}}>
+        <p className= "px-2">
+
+            <Link to="https://github.com/SugarCabinet"><SiGithub /> </Link>  
+                </p>
+            <p>
+            <Link to="https://www.linkedin.com/in/ryanrdriver/"><SiLinkedin />  </Link>  
+            </p>
+    </IconContext.Provider>
+</div>
         </div>
+
     )
 }
 
