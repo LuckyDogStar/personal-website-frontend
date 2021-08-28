@@ -13,7 +13,7 @@ const Footer = () => {
 
         <div className="flex px-2 justify-between items-center h-16 bg-black text-white">
                        <p className="px-2">
-        Visitors:
+        Visitors: 
         <span id="replaceme" />
                 </p>
            <p>Copyright © 2021 Ryan Driver all rights reserved.</p>
@@ -23,10 +23,10 @@ const Footer = () => {
                     <IconContext.Provider value={{size:"1.5em"}}>
         <p className= "px-2">
 
-            <Link to="https://github.com/SugarCabinet"><SiGithub /> </Link>  
+            <a href="https://github.com/SugarCabinet"><SiGithub /> </a>  
                 </p>
             <p>
-            <Link to="https://www.linkedin.com/in/ryanrdriver/"><SiLinkedin />  </Link>  
+            <a href="https://www.linkedin.com/in/ryanrdriver/"><SiLinkedin />  </a>  
             </p>
     </IconContext.Provider>
 </div>
