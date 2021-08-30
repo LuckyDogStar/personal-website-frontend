@@ -28,7 +28,7 @@ const About = () => {
                 <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-3xl">
                     <div className="md:flex">
                         <div className="md:flex-shrink-0">
-                            <img className="h-50 w-full object-cover md:h-full md:w-48" src={current} alt="Black labrador puppy running with tennis ball">
+                            <img className="h-48 w-full object-cover md:h-full md:w-48" src={current} alt="Black labrador puppy running with tennis ball">
                             </img>
                         </div>
                         <div className="p-8">
