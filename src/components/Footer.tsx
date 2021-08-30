@@ -15,7 +15,7 @@ const Footer = () => {
                 Visitors:
                 <span id="replaceme" />
             </p>
-            <p>Copyright © 2021 Ryan Driver all rights reserved.</p>
+            <p>Copyright © 2021 Ryan Driver</p>
 
             <div className="flex px-2 justify-between items-center h-16 bg-black text-white">
 

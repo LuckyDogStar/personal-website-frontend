@@ -24,17 +24,19 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-3xl">
-                <div className="md:flex">
-                    <div className="md:flex-shrink-0">
-                        <img className="h-40 w-full object-cover md:h-full md:w-48" src={current} alt="Black labrador puppy running with tennis ball">
-                        </img>
-                    </div>
-                    <div className="p-8">
-                        <div className="uppercase tracking-wide text-lg text-indigo-500 font-volkhov">Dog Trainer</div>
-                        <h1 className="block mt-1 text-md leading-tight font-montserrat text-black">Sundance Retrievers</h1>
-                        <p className="mt-2 text-gray-500"> I collaborate with a team to train both companion and serivce dogs according to client needs.
-                            I evaluate each dog to ensure it meets the client's expectations and is adequetly progressing to meet its expected go home date. </p>
+            <div className="p-4">
+                <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-3xl">
+                    <div className="md:flex">
+                        <div className="md:flex-shrink-0">
+                            <img className="h-50 w-full object-cover md:h-full md:w-48" src={current} alt="Black labrador puppy running with tennis ball">
+                            </img>
+                        </div>
+                        <div className="p-8">
+                            <div className="uppercase tracking-wide text-lg text-indigo-500 font-volkhov">Dog Trainer</div>
+                            <h1 className="block mt-1 text-md leading-tight font-montserrat text-black">Sundance Retrievers</h1>
+                            <p className="mt-2 text-gray-500"> I collaborate with a team to train both companion and serivce dogs according to client needs.
+                                I evaluate each dog to ensure it meets the client's expectations and is adequetly progressing to meet its expected go home date. </p>
+                        </div>
                     </div>
                 </div>
             </div>
