@@ -34,8 +34,8 @@ const About = () => {
                         <div className="p-8">
                             <div className="uppercase tracking-wide text-lg text-indigo-500 font-volkhov">Dog Trainer</div>
                             <h1 className="block mt-1 text-md leading-tight font-montserrat text-black">Sundance Retrievers</h1>
-                            <p className="mt-2 text-gray-500"> I collaborate with a team to train both companion and serivce dogs according to client needs.
-                                I evaluate each dog to ensure it meets the client's expectations and is adequetly progressing to meet its expected go home date. </p>
+                            <p className="mt-2 text-gray-500"> I collaborate with a team to train both companion and service dogs according to client needs.
+                                I evaluate each dog to ensure it meets the client's expectations and is adequately progressing to meet its expected go-home date. </p>
                         </div>
                     </div>
                 </div>

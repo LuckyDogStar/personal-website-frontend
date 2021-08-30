@@ -37,8 +37,8 @@ const Portfolio = () => {
                         <div className="p-8">
                             <div className="uppercase tracking-wide text-lg text-indigo-500 font-volkhov">Personal Site</div>
                             <h1 className="block mt-1 text-md leading-tight font-montserrat text-black hover:underline"><a href="https://github.com/SugarCabinet/personal-website-frontend">Personal project website</a></h1>
-                            <p className="mt-2 text-gray-500"> Designed and developed personal site using React, TypeScript and Tailwind CSS.
-                                Site hosting and management is handled using Amazon Web Services. AWS products include S3, Cloudfront, DynamoDB, Lambda, Route53.</p>
+                            <p className="mt-2 text-gray-500"> Designed and developed a personal site using React, TypeScript, and Tailwind CSS.
+                                Site hosting and management are handled using Amazon Web Services. AWS products include S3, Cloudfront, DynamoDB, Lambda, Route53.</p>
                         </div>
                     </div>
                 </div>
