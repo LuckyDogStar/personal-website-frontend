@@ -1,7 +1,7 @@
 import React from "react";
 
 const Content = () => {
-    return(
+    return (
         <div className='flex flex-col'>
 
         </div>

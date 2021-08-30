@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero-lg': "url('blob-haikei.svg')",
+        'about-lg': "url('blob-about.svg')",
+        'portfolio-lg': "url('blob-projects.svg')",
+        'contact-lg': "url('blob-contact.svg')"
       }
     },
 
